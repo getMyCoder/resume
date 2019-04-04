@@ -201,7 +201,7 @@
         function TechnologicalProcess(callbacl) {
             $.ajax({
                 type: "GET",
-                url: "static/text.json",
+                url: "./static/text.json",
                 success: function (response) {
                     for (var i = 0; i < response.firstLi.language.length; i++) {
                         $(".lanDiv dl").append("<dd>" + response.firstLi.language[i] + "</dd>")
