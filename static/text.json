@@ -1,0 +1,39 @@
+{
+  "firstLi": {
+    "language": ["JavaScript","HTML","HTML5","CSS","CSS3","Animate","Bootstrap","layUI","Element","jQuery","Echart","Webpack","Vue","VueX","Router","NodeJS","PHP"],
+    "tool":["WebStorm","VS Code","HBuilder","Sublime Text","Photoshop","Fireworks","MongoDB","Navicat for MySQL"]
+  },
+  "secondLi":{
+    "title":"山东省",
+    "text":"济南市",
+    "content":"济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城..."
+  },
+  "threeLi":{
+    "title":"山东省济南市",
+    "content":"济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城..."
+  },
+  "fourLi":[
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
+    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"}
+  ],
+  "fiverLi":[
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"},
+    {"href":"http://www.hao123.com","title":"热点1"}
+  ],
+  "sexLi":{
+    "title":"标题",
+    "content":[
+      "济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城..",
+      "济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城.."]
+  }
+}

@@ -14,11 +14,16 @@
             -ms-user-select: none;
             user-select: none;
             font-family: "微软雅黑";
+            background: url("static/images/dombg.jpg") no-repeat top center;
         }
 
         * {margin: 0;padding: 0;}
 
-        .container {width: 100%;overflow: hidden;}
+        a {text-decoration: none}
+
+        button {outline: none}
+
+        .container {width: 100%;overflow: hidden;opacity: 0.95;filter: alpha(opacity=95)}
 
         .main {padding: 80px;overflow: hidden;}
 
@@ -34,9 +39,12 @@
         .hotHref {width: 400px;overflow: hidden;background: url("static/images/showbg.jpg") no-repeat top left;background-size: cover}
 
         .hotHrefDiv {background: rgba(50, 52, 89, 0.8);width: 100%;height: inherit;}
-        .hotHrefDiv h5{text-align: center;color: #fff;font-size: 16px;margin-top: 15px;font-weight: normal}
-        .fiverDiv1 dl{}
-        .fiverDiv1 dl dd{height: 25px !important;line-height: 25px !important;}
+
+        .hotHrefDiv h5 {text-align: center;color: #fff;font-size: 16px;margin-top: 15px;font-weight: normal}
+
+        .fiverDiv1 dl {}
+
+        .fiverDiv1 dl dd {height: 25px !important;line-height: 25px !important;}
 
         .hotHrefDiv h3 {text-align: center;color: #fff; padding-top: 30px;}
 
@@ -48,11 +56,11 @@
 
         .secondLiDivC {background: rgba(50, 52, 89, 0.95);width: 90%;margin: 0 auto; min-height: 60%;}
 
-        .secondLi h2 {color: #fff;font-size: 30px;padding: 30px 0 0 30px;}
+        .secondLi h2 {color: #fff;font-size: 24px;padding: 30px 0 0 30px;}
 
-        .secondLi h3 {color: #fff;font-size: 24px;padding: 20px 0 0 30px;font-weight: normal}
+        .secondLi h3 {color: #fff;font-size: 20px;padding: 20px 0 0 30px;font-weight: normal}
 
-        .secondLi h4 {border-bottom: 2px solid rgba(255, 255, 255, 0.5);width: 100px;margin: 15px 0 0 30px;}
+        .secondLi h4 {border-bottom: 2px solid rgba(255, 255, 255, 0.5);width: 60px;margin: 15px 0 0 30px;}
 
         .secondLi p {padding: 30px;color: #fff;font-size: 14px;line-height: 30px;text-indent: 28px;}
 
@@ -76,7 +84,7 @@
 
         .forLicon dl {overflow: hidden;}
 
-        .forLicon dl dd {float: left;width: 30%;background: red;overflow: hidden;position: relative;margin: 15px 1.5%;border: 1px solid #fff;}
+        .forLicon dl dd {float: left;width: 30%;background: red;overflow: hidden;position: relative;margin: 15px 1.5%;border: 1px solid #fff;cursor: pointer;}
 
         .forLicon dl dd img {width: 100%;height: inherit;}
 
@@ -90,13 +98,50 @@
 
         .fiverDiv dl {overflow: hidden;list-style: none}
 
-        .fiverDiv dl dd {float: left;height: 30px;border: 1px solid #fff;line-height: 30px;margin: 4px 7px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; }
+        .fiverDiv dl dd {float: left;height: 30px;border: 1px solid #fff;line-height: 30px;margin: 4px 7px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;padding: 0 15px;color: #fff;font-size: 14px;cursor: pointer;}
 
-        .fiverDiv dl dd a {width: 100%;padding: 0 15px;color: #fff;font-size: 14px;display: block;height: 30px;text-decoration: none}
+        .fiverDiv dl dd span {width: 100%;display: block;height: 30px;text-decoration: none}
 
         .fiverDiv dl dd:hover {background: #fff;color: #323459;}
 
-        .fiverDiv dl dd:hover a {color: #323459;}
+        .fiverDiv dl dd:hover span {color: #323459;}
+
+        .sixLi {background: rgba(50, 52, 89, 0.9);width: 800px;}
+
+        .sexLiDiv {width: 94%;margin: 30px auto;background: rgba(255, 255, 255, 0.85);
+            -webkit-box-shadow: 0 0 10px 1px #727382;
+            -moz-box-shadow: 0 0 10px 1px #727382;
+            box-shadow: 0 0 10px 1px #727382;}
+
+        .sexLiDiv h3 {text-align: center;line-height: 50px;padding-top: 15px;color: #323459;font-size: 16px}
+
+        .sexLiDiv p {text-indent: 25px; color: #323459;line-height: 22px;padding: 0 15px 35px 15px;font-size: 14px;}
+
+        .hrefPop {width: 350px;height: 180px;background: #fff;position: absolute;z-index: 9999;
+            -webkit-box-shadow: 0 0 10px 1px #727382;
+            -moz-box-shadow: 0 0 10px 1px #727382;
+            box-shadow: 0 0 10px 1px #727382;}
+
+        .titlePop {text-align: center;height: 35px;line-height: 35px;font-size: 14px;color: #fff;background: #282a4c;}
+
+        .hrefCon {color: #323459;text-align: center;line-height: 105px;font-size: 14px; }
+
+        .bottomPop {height: 40px;overflow: hidden;}
+
+        .bottomPop p {margin: 0 15px;}
+
+        .bottomPop p button {width: 60px;height: 28px;border: none;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;overflow: hidden;cursor: pointer;}
+
+        .nohref {float: left;}
+
+        .nohref button {background: #ccc;}
+
+        .yeshref {float: right;}
+
+        .yeshref button {background: #323459;}
+
+        .yeshref button a {color: #fff;font-size: 12px;display: block;width: 100%;height: inherit;text-align: center;line-height: 28px;}
+
 
     </style>
 </head>
@@ -108,130 +153,40 @@
                 <div class="hotHrefDiv">
                     <h3>标签</h3>
                     <h5>语言</h5>
-                    <div class="fiverDiv fiverDiv1" style="padding: 0 15px">
-                        <dl>
-                            <dd><a href="javascript:;">JavaScript</a></dd>
-                            <dd><a href="javascript:;">HTML</a></dd>
-                            <dd><a href="javascript:;">HTML5</a></dd>
-                            <dd><a href="javascript:;">CSS</a></dd>
-                            <dd><a href="javascript:;">CSS3</a></dd>
-                            <dd><a href="javascript:;">Animate</a></dd>
-                            <dd><a href="javascript:;">Bootstrap</a></dd>
-                            <dd><a href="javascript:;">layUI</a></dd>
-                            <dd><a href="javascript:;">Element</a></dd>
-                            <dd><a href="javascript:;">jQuery</a></dd>
-                            <dd><a href="javascript:;">Echart</a></dd>
-                            <dd><a href="javascript:;">Webpack</a></dd>
-                            <dd><a href="javascript:;">Vue</a></dd>
-                            <dd><a href="javascript:;">VueX</a></dd>
-                            <dd><a href="javascript:;">Router</a></dd>
-                            <dd><a href="javascript:;">NodeJS</a></dd>
-                            <dd><a href="javascript:;">PHP</a></dd>
-                        </dl>
+                    <div class="fiverDiv lanDiv" style="padding: 0 15px">
+                        <dl></dl>
                     </div>
                     <h5>开发工具</h5>
-                    <div class="fiverDiv fiverDiv1" style="padding: 0 15px">
-                        <dl>
-                            <dd><a href="javascript:;">WebStorm</a></dd>
-                            <dd><a href="javascript:;">VS Code</a></dd>
-                            <dd><a href="javascript:;">HBuilder</a></dd>
-                            <dd><a href="javascript:;">Sublime Text</a></dd>
-                            <dd><a href="javascript:;">Photoshop</a></dd>
-                            <dd><a href="javascript:;">Fireworks</a></dd>
-                            <dd><a href="javascript:;">MongoDB</a></dd>
-                            <dd><a href="javascript:;">Navicat for MySQL</a></dd>
-                        </dl>
+                    <div class="fiverDiv toolDiv" style="padding: 0 15px">
+                        <dl></dl>
                     </div>
                 </div>
             </li>
             <li class="secondLi">
                 <div class="secondLiDiv">
-                    <div class="secondLiDivC">
-                        <h2>山东省济南市</h2>
-                        <h3>山东省济南市</h3>
-                        <h4></h4>
-                        <p>济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地
-                            ，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城...</p>
-                    </div>
-
+                    <div class="secondLiDivC"></div>
                 </div>
             </li>
             <li class="threeLi">
                 <div class="threeLM">
-                    <div class="threeLMDiv">
-                        <h2>山东省济南市</h2>
-                        <h4></h4>
-                        <p>济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地
-                            ，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城...</p>
-                    </div>
+                    <div class="threeLMDiv"></div>
                 </div>
             </li>
             <li class="fourLi">
                 <div class="forLimain">
                     <div class="forLicon">
-                        <dl>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                            <dd>
-                                <img src="static/images/personbg.jpg" alt="">
-                                <div class="forItems">
-                                    <a href="">
-                                        <h4>Kui框架</h4>
-                                    </a>
-                                </div>
-                            </dd>
-                        </dl>
+                        <dl></dl>
                     </div>
                 </div>
             </li>
             <li class="fiverLi">
                 <h2>热点连接</h2>
-                <div class="fiverDiv">
-                    <dl>
-                        <dd><a href="">热点1</a></dd>
-                        <dd><a href="">热点1</a></dd>
-                        <dd><a href="">热点1</a></dd>
-                        <dd><a href="">热点1</a></dd>
-                    </dl>
+                <div class="fiverDiv hrefEvent fiverHot">
+                    <dl></dl>
                 </div>
+            </li>
+            <li class="sixLi">
+                <div class="sexLiDiv"></div>
             </li>
         </ul>
     </div>
@@ -241,24 +196,109 @@
     $(function () {
         var DH = document.documentElement.clientHeight;
         var DW = document.documentElement.clientWidth;
-        var getUlP = parseFloat($(".main").css('paddingLeft'));
-        $(".setUl li").css({
-            "height": DH - getUlP * 2
-        })
-        $(".setUl").css({
-            "height": DH - getUlP * 2
-        })
-        $(".forLicon dl dd").css({
-            'height': ($(".setUl li").height() - 220) / 2 + "px"
-        })
-        $(".forLicon dl dd").each(function () {
-            $(this).find('img').attr("ondragstart", "return false")
-        })
-        $(".forLicon dl dd h4").css({
-            'height': ($(".setUl li").height() - 220) / 2 + "px",
-            "lineHeight": ($(".setUl li").height() - 220) / 2 + "px"
-        })
-        MouseScroll();
+        var getUlP = 0;
+
+        function TechnologicalProcess(callbacl) {
+            $.ajax({
+                type: "GET",
+                url: "static/text.json",
+                success: function (response) {
+                    for (var i = 0; i < response.firstLi.language.length; i++) {
+                        $(".lanDiv dl").append("<dd>" + response.firstLi.language[i] + "</dd>")
+                    }
+                    for (var j = 0; j < response.firstLi.tool.length; j++) {
+                        $(".toolDiv dl").append("<dd>" + response.firstLi.tool[j] + "</dd>")
+                    }
+                    $(".secondLiDivC").append("<h2>" + response.secondLi.title + "</h2><h3>" + response.secondLi.text + "</h3><h4></h4><p>" + response.secondLi.content + "</p>")
+                    $(".threeLMDiv").append("<h2>" + response.threeLi.title + "</h2><h4></h4><p>" + response.threeLi.content + "</p>")
+                    for (var k = 0; k < response.fourLi.length; k++) {
+                        $(".forLicon dl").append("<dd><img src=" + response.fourLi[k].img + "><div class='forItems'><h4 setHref='" + response.fourLi[k].href + "'>" + response.fourLi[k].title + "</h4></div></dd>")
+                    }
+                    for (var p = 0; p < response.fiverLi.length; p++) {
+                        $(".fiverHot dl").append(" <dd><span setHref=" + response.fiverLi[p].href + ">" + response.fiverLi[p].title + "</span></dd>")
+                    }
+                    $(".sexLiDiv").append("<h3>" + response.sexLi.title + "</h3>");
+                    for (var q = 0; q < response.sexLi.content.length; q++) {
+                        $(".sexLiDiv").append(" <p>" + response.sexLi.content[q] + "</p>")
+                    }
+                    callbacl()
+                },
+                err: function (err) {
+                    console.log(err);
+                }
+            })
+        }
+
+        TechnologicalProcess(function () {
+            getUlP = parseFloat($(".main").css('paddingLeft'));
+            $(".setUl li").css({
+                "height": DH - getUlP * 2
+            });
+            $(".setUl").css({
+                "height": DH - getUlP * 2
+            });
+            $(".forLicon dl dd").css({
+                'height': ($(".setUl li").height() - 220) / 2 + "px"
+            });
+            $(".forLicon dl dd").each(function () {
+                $(this).find('img').attr("ondragstart", "return false")
+            });
+            $(".forLicon dl dd h4").css({
+                'height': ($(".setUl li").height() - 220) / 2 + "px",
+                "lineHeight": ($(".setUl li").height() - 220) / 2 + "px"
+            });
+
+            setEvent($(".forLicon dl dd"), 'h4');
+
+            setEvent($(".hrefEvent dl dd"), 'span');
+
+            MouseScroll();
+        });
+
+        // a链接
+        function setEvent(obj, objLable) {
+            var setVal = true;
+            obj.each(function (index) {
+                $(this).mousedown(function (evtD) {
+                    $(document).mousemove(function (evtM) {
+                        if (Math.abs(evtD.clientX - evtM.clientX) > 0) {
+                            setVal = false;
+                        }
+                    })
+                })
+                $(this).mouseup(function () {
+                    if (setVal) {
+                        setHref(obj.eq(index).find(objLable).attr('setHref'), obj.eq(index).find(objLable).html())
+                    }
+                    setVal = true
+                })
+            });
+        }
+
+        // 弹窗
+        function setHref(url, value) {
+            var setPopHtml = '<div class="hrefPop">\n' +
+                '    <div class="titlePop">页面跳转</div>\n' +
+                '    <div class="hrefCon">\n' +
+                '        是否确认跳转此页面\n' +
+                '    </div>\n' +
+                '    <div class="bottomPop">\n' +
+                '        <p class="nohref setAH"><button>取消</button></p>\n' +
+                '        <p class="yeshref setAH"><button><a href="" target="_blank">确认</a></button></p>\n' +
+                '    </div>\n' +
+                '</div>';
+            $("body").append(setPopHtml);
+            $(".yeshref a").attr('href', url);
+            $(".hrefCon").html('是否确认跳转至 - ' + value + ' - 页面')
+            $(".hrefPop").css({
+                'top': (DH - $(".hrefPop").height()) / 2 - 50 + 'px',
+                'left': (DW - $(".hrefPop").width()) / 2 + 'px',
+            });
+            $(".setAH").click(function () {
+                $(".hrefPop").remove()
+            })
+        }
+
         // 拖动、滚动
         function MouseScroll() {
             var setml = 0;
