@@ -4,36 +4,29 @@
     "tool":["WebStorm","VS Code","HBuilder","Sublime Text","Photoshop","Fireworks","MongoDB","Navicat for MySQL"]
   },
   "secondLi":{
-    "title":"山东省",
-    "text":"济南市",
-    "content":"济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城..."
+    "title":"前端开发",
+    "text":"web前端",
+    "content":"前端一般分为B/S和C/S，web前端开发属于B/S，主要开发浏览器访问的页面；随着B/S打包工具的逐渐成熟，很多移动端的App会直接通过web前端页面直接打包成移动端安装包，虽然web页面直接打包成App对于开发者来讲是很方便的，但是实际的应用体验、性能、数据交互和原生的语言开发的App相比，还是有一定的差距；但随着移动端App的大量需求，用第三方打包工具快速生成也是一个挺不错的方法，所以现在的前端开发面临的开发技术具有一定的选择性和挑战性。"
   },
   "threeLi":{
-    "title":"山东省济南市",
-    "content":"济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城..."
+    "title":"web前端技能",
+    "content":"web页面需要的技能包括html/html5、css/css3、javascript/ES6，并且这些都是基础；对于UI框架，需要几套使用熟练的，在实际的项目中根据需求选择；对于数据插件，虽说现在的Echart插件使用比较方便，但是对于canvas绘图技能还是要会一些的；对于React、Angular、Vue数据驱动视图的框架，至少要掌握一套；对于web前端开发来讲后台的编程语言还是有必要了解一些，但是对于Node，个人觉得有必要深入的了解、学习。以上的知识，也只是web前端开发的初级知识！"
   },
   "fourLi":[
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"},
-    {"img":"static/images/personbg.jpg","href":"http://www.baidu.com","title":"Kui框架"}
+    {"img":"static/images/Kui.png","href":"http://www.nodeserver.gq/kui/","title":"Kui框架"},
+    {"img":"static/images/vue.png","href":"https://getmycoder.github.io/index","title":"Vue-Element"},
+    {"img":"static/images/canvas.png","href":"https://getmycoder.github.io/echart/","title":"canvas数据"},
+    {"img":"static/images/tree.png","href":"https://getmycoder.github.io/Tree/","title":"树插件"}
   ],
   "fiverLi":[
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"},
-    {"href":"http://www.hao123.com","title":"热点1"}
+    {"href":"https://www.bootcdn.cn","title":"BootCND"},
+    {"href":"https://jspang.com","title":"技术胖博客"},
+    {"href":"http://www.hewebgl.com","title":"WebGL"},
+    {"href":"https://www.itying.com","title":"IT营"}
   ],
   "sexLi":{
-    "title":"标题",
+    "title":"IT发展趋势—个人观点",
     "content":[
-      "对于前端开发，数据驱动视图的开发模式将会是一种趋势，在这种趋势下，前后端分离有可能会把B/S和C/S整合到一起，首先是因为量的需求，其次是因为前后端完全分离的模式会把工作分的较为清晰；无论对于B/S还是C/S都是数据驱动视图，视图展现数据，或者再简单点，前端的主要工作就是视图的交互，对于数据也仅仅是渲染。而对于数据来讲，AI的崛起加快了数字化的的进程，数据逻辑的分析是智能AI开发的前提，我们对数据的需求还在源源不断的上升。所以IT行业来讲对于大众来讲开发的重点或是需求的重点无非就是绚烂的数据页面和智能的数据信息，",
-      "济南市，简称“济”，别称“泉城”，是山东省省会、全国十五个副省级城市之一，环渤海地区南翼的中心城市，山东省的政治、文化、教育、交通和科技中心。中国人民解放军北部战区陆军机关驻地，山东半岛城市群和济南都市圈核心城市、新一线城市。济南因境内泉水众多，拥有“七十二名泉”，被称为“泉城.."]
+      "对于前端开发，数据驱动视图的开发模式将会是一种趋势，在这种趋势下，前后端分离有可能会把B/S和C/S整合到一起，首先是因为量的需求，其次是因为前后端完全分离的模式会把工作分的较为清晰；无论对于B/S还是C/S都是数据驱动视图，视图展现数据，或者再简单点，前端的主要工作就是视图的交互，对于数据也仅仅是渲染。而对于数据来讲，AI的崛起加快了数字化的的进程，数据逻辑的分析是智能AI开发的前提，我们对数据的需求还在源源不断的上升。所以IT行业来讲对于大众来讲开发的重点或是需求的重点无非就是绚烂的数据页面和智能的数据信息！"]
   }
 }
