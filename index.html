@@ -284,12 +284,15 @@
                 '    </div>\n' +
                 '    <div class="bottomPop">\n' +
                 '        <p class="nohref setAH"><button>取消</button></p>\n' +
-                '        <p class="yeshref setAH"><button><a href="" target="_blank">确认</a></button></p>\n' +
+                '        <p class="yeshref setAH"><button><a href="javascript:;">确认</a></button></p>\n' +
                 '    </div>\n' +
                 '</div>';
             $("body").append('<div class="setWell">'+setPopHtml+'</div>');
             $(".setWell").height(DH)
-            $(".yeshref a").attr('href', url);
+            // $(".yeshref a").attr('href', url);
+            $(".yeshref").click(function () {
+                window.location.href=url
+            })
             $(".hrefCon").html('是否确认跳转至 - ' + value + ' - 页面')
             $(".hrefPop").css({
                 'top': (DH - $(".hrefPop").height()) / 2 - 50 + 'px',
