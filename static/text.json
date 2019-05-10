@@ -1,6 +1,6 @@
 {
   "firstLi": {
-    "language": ["JavaScript","HTML","HTML5","CSS","CSS3","Animate","Bootstrap","layUI","Element","jQuery","Echart","Webpack","Vue","VueX","Router","NodeJS","PHP"],
+    "language": ["JavaScript","HTML","HTML5","CSS","CSS3","Animate","Bootstrap","layUI","Element","jQuery","Echart","RequireJs","Webpack","Vue","VueX","Router","NodeJS","PHP"],
     "tool":["WebStorm","VS Code","HBuilder","Sublime Text","Photoshop","Fireworks","MongoDB","Navicat for MySQL"]
   },
   "secondLi":{
