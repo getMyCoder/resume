@@ -154,9 +154,7 @@
 
         .topTips p i {text-align: right;border: 1px dashed #ccc;display: block;float: right;font-style: normal;padding: 3px 20px;color: #999;}
 
-        .TimesDLi{width: 600px;background: rgba(50, 52, 89, 0.5)}
-
-
+        .TimesDLi {width: 600px;background: rgba(50, 52, 89, 0.5)}
 
         .times {width: 100%;}
 
@@ -173,9 +171,8 @@
         .TimeRight {width: 10px;height: 0;left: 0px;bottom: 0;}
 
         .TimeDD {position: absolute;}
-        .showTimeC{width: 380px;height: 150px;border:1px dashed #ccc;margin: 10px;text-align: center;line-height: 150px;font-size: 60px;font-weight: bold}
 
-
+        .showTimeC {width: 380px;height: 150px;border: 1px dashed #ccc;margin: 10px;text-align: center;line-height: 150px;font-size: 60px;font-weight: bold}
 
 
     </style>
@@ -224,9 +221,6 @@
                 <div class="sexLiDiv"></div>
             </li>
             <li class="TimesDLi">
-
-
-
                 <div class="times">
                     <div class="timeP"></div>
                     <div class="showTime">
@@ -237,9 +231,6 @@
                         <div class="TimeDD TimeRight"></div>
                     </div>
                 </div>
-
-
-
             </li>
         </ul>
     </div>
@@ -446,23 +437,20 @@
             })
         }
 
-
-
-
-
         var times = {};
         var getDate;
         var TimeWidth = 10;
-        var ItemsF={
-            width:$(".showTime").width(),
-            height:$(".showTime").height(),
-            background:['#67C23A','#E6A23C','#F56C6C','#909399','#409EFF']
+        var ItemsF = {
+            width: $(".showTime").width(),
+            height: $(".showTime").height(),
+            background: ['#67C23A', '#E6A23C', '#F56C6C', '#909399', '#409EFF']
         };
 
         TimeNew();
         setInterval(function () {
             TimeNew()
         }, 1000);
+
         function TimeNew() {
             getDate = new Date();
             times = {
@@ -477,43 +465,44 @@
             times.getMinutes = setHMS(times.getMinutes);
             times.getSeconds = setHMS(times.getSeconds);
             var timesN = times.getFullYear + "-" + times.getMonth + "-" + times.getDate + " " + times.getHours + ":" + times.getMinutes + ":" + times.getSeconds;
-            var getBGColor=ItemsF.background[parseInt(Math.random()*ItemsF.background.length)+1];
+            var getBGColor = ItemsF.background[parseInt(Math.random() * ItemsF.background.length) + 1];
             $(".showTimeC").html(times.getSeconds);
             $(".showTimeC").css({
-                'color':getBGColor
+                'color': getBGColor
             });
             $(".showTime").css({
-                'borderColor':getBGColor
+                'borderColor': getBGColor
             });
             $(".showTimeC").css({
-                'borderColor':getBGColor
+                'borderColor': getBGColor
             });
             $(".timeP").html(timesN);
             $(".showTime .TimeDD").css({
                 "width": 0,
                 "height": 0,
-                "background":getBGColor
+                "background": getBGColor
             });
             $(".showTime .TimeDD").eq(0).height(TimeWidth);
             $(".showTime .TimeDD").eq(0).animate({
                 "width": ItemsF.width
-            }, 250,'linear', function () {
+            }, 250, 'linear', function () {
                 $(".showTime .TimeDD").eq(1).width(TimeWidth);
                 $(".showTime .TimeDD").eq(1).animate({
                     "height": ItemsF.height
-                }, 250,'linear', function () {
+                }, 250, 'linear', function () {
                     $(".showTime .TimeDD").eq(2).height(TimeWidth);
                     $(".showTime .TimeDD").eq(2).animate({
                         "width": ItemsF.width
-                    }, 200,'linear', function () {
+                    }, 200, 'linear', function () {
                         $(".showTime .TimeDD").eq(3).width(TimeWidth);
                         $(".showTime .TimeDD").eq(3).animate({
                             "height": ItemsF.height
-                        }, 250,'linear')
+                        }, 250, 'linear')
                     })
                 })
             })
         }
+
         function setHMS(val) {
             if (val < 10) {
                 return '0' + val

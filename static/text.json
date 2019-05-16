@@ -16,7 +16,8 @@
     {"img":"static/images/Kui.png","href":"http://www.nodeserver.gq/kui/","title":"Kui框架"},
     {"img":"static/images/vue.png","href":"https://getmycoder.github.io/index","title":"Vue-Element"},
     {"img":"static/images/canvas.png","href":"https://getmycoder.github.io/echart/","title":"canvas数据"},
-    {"img":"static/images/tree.png","href":"https://getmycoder.github.io/Tree/","title":"树插件"}
+    {"img":"static/images/tree.png","href":"https://getmycoder.github.io/Tree/","title":"树插件"},
+    {"img":"static/images/coms.png","href":"http://120.221.150.34:6680/","title":"项目"}
   ],
   "fiverLi":[
     {"href":"https://www.bootcdn.cn","title":"BootCND"},
