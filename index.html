@@ -465,7 +465,7 @@
             times.getMinutes = setHMS(times.getMinutes);
             times.getSeconds = setHMS(times.getSeconds);
             var timesN = times.getFullYear + "-" + times.getMonth + "-" + times.getDate + " " + times.getHours + ":" + times.getMinutes + ":" + times.getSeconds;
-            var getBGColor = ItemsF.background[parseInt(Math.random() * ItemsF.background.length) + 1];
+            var getBGColor=ItemsF.background[parseInt(Math.random()*(ItemsF.background.length+1))];
             $(".showTimeC").html(times.getSeconds);
             $(".showTimeC").css({
                 'color': getBGColor
